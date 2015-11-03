@@ -1,0 +1,20 @@
+aequasi_cache:
+    instances:
+        default:
+             persistent: true
+             namespace: mc
+             type: memcached
+             hosts:
+                 - { host: localhost, port: 11211 }
+#    doctrine:
+#        enabled: true
+#        metadata:
+#            instance: default
+#            entity_managers:   [ default ]       # the name of your entity_manager connection
+#            document_managers: [ default ]       # the name of your document_manager connection
+#        result:
+#            instance: default
+#            entity_managers:   [ default, read ]  # you may specify multiple entity_managers
+#        query:
+#            instance: default
+#            entity_managers: [ default ]

@@ -1,0 +1,4 @@
+services:
+    domain.service.memcached:
+        class: DomainBundle\Service\MemcachedService
+        arguments: [@aequasi_cache.instance.default]
