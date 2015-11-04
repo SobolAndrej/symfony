@@ -1,4 +1,10 @@
-symfony
+Welcome to the Test Symfony project
 =======
 
-A Symfony project created on November 2, 2015, 9:27 pm.
+Project setup:
+
+* run <code>composer install</code>;
+
+* run <code>php app/console doctrine:schema:update</code>;
+
+* run <code>php app/console doctrine:fixtures:load</code>.
